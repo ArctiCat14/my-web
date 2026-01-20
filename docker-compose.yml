@@ -1,6 +1,7 @@
 services:
     my-web:
         build: .
+        image: my-web:latest
         ports:
             - "80:80"
         restart: always
